@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/group1"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/Blog"
+            android:icon="@drawable/ic_baseline_blog"
+
+
+            android:title="@string/blog">
+
+        </item>
+
+
+
+        <item
+            android:id="@+id/Compete"
+            android:icon="@drawable/ic_baseline_compete"
+
+            android:title="@string/compete">
+
+        </item>
+        <item
+            android:id="@+id/AboutUs"
+            android:icon="@drawable/ic_baseline_info_24"
+
+
+
+            android:title="@string/about_us">
+
+        </item>
+    </group>
+    <group
+        android:id="@+id/group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Resources"
+            android:icon="@drawable/ic_baseline_format_list_numbered_rtl_24"
+
+
+            android:title="Previous Queries">
+
+        </item>
+
+        <item
+            android:id="@+id/developer"
+            android:icon="@drawable/ic_baseline_developer_mode_24"
+            android:title="@string/developer">
+
+        </item>
+
+
+        <item
+            android:id="@+id/Share"
+            android:icon="@drawable/ic_baseline_share_24"
+
+            android:title="@string/share">
+
+        </item>
+    </group>
+    <group android:id="@+id/group2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/Support"
+            android:icon="@drawable/ic_baseline_support_agent_24"
+            android:title="@string/support">
+
+        </item>
+    <item
+        android:id="@+id/nav_Logout"
+        android:icon="@drawable/ic_baseline_logout"
+        android:title="@string/logout">
+
+    </item></group>
+
+</menu>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.siddheswarojha.codigoplatforma">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CodigoPlatforma">
+        <activity android:name=".CommonQuery"></activity>
+        <activity
+            android:name=".AppDev"
+            android:parentActivityName=".Drawer_Layout" />
+        <activity
+            android:name=".WebDev"
+            android:parentActivityName=".Drawer_Layout" />
+        <activity
+            android:name=".Cp"
+            android:parentActivityName=".Drawer_Layout" />
+        <activity
+            android:name=".Support_"
+            android:parentActivityName=".Drawer_Layout" />
+        <activity
+            android:name=".Code"
+            android:parentActivityName=".Drawer_Layout" />
+        <activity
+            android:name=".News"
+            android:parentActivityName=".Drawer_Layout" />
+        <activity
+            android:name=".Splash"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+        <activity
+            android:name=".Quiz"
+            android:parentActivityName=".Drawer_Layout" />
+        <activity
+            android:name=".User_Login"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity android:name=".Container" />
+        <activity
+            android:name=".AboutUs"
+            android:parentActivityName=".Drawer_Layout"></activity>
+        <activity
+            android:name=".Drawer_Layout"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

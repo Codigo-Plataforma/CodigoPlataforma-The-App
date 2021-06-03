@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Codigo Platforma</string>
+    <string name="codigo_platforma">Codigo Plataforma</string>
+    <string name="login">Login</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="todo" />
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="password">Password</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="one_stop_destination">One Stop Destination</string>
+    <string name="user_name">User Name</string>
+    <string name="about_us">About Us</string>
+    <string name="codigo_platforma_is_the_official_coding_club_of_silicon_institute_of_technology_sambalpur_n_here_is_a_list_of_our_core_members_who_works_hard_to_deliver_the_best_materials_and_events">Codigo Plataforma is the official coding club of Silicon Institute of Technology, Sambalpur.\nHere is a list of our core members who works hard to deliver the best materials and events.</string>
+    <string name="aboutus">AboutUs</string>
+
+    <string name="share">Share</string>
+    <string name="resources">Resources</string>
+    <string name="blog">Blog</string>
+    <string name="support">Support</string>
+    <string name="notice">Notice</string>
+    <string name="notice_board">Notice Board</string>
+    <string name="compete">Compete</string>
+    <string name="sample_text_to_be_fetched_from_firebase">Sample Text To be fetched from FireBase</string>
+    <string name="verify_otp">Verify OTP</string>
+    <string name="verify">Verify</string>
+    <string name="us">About Us</string>
+    <string name="news">News</string>
+    <string name="code">Code</string>
+    <string name="quiz">Quiz</string>
+    <string name="enter_otp">Enter OTP</string>
+    <string name="sample_text">Sample Text</string>
+    <string name="logout">Log Out</string>
+    <string name="developer">Developer</string>
+    <string name="email">Email</string>
+    <string name="enter_your_query">Enter Your Query</string>
+    <string name="email_address">Email Address</string>
+    <string name="textview">txt</string>
+    <string name="web_development">Web Development</string>
+    <string name="application_development">Application Development</string>
+    <string name="competitive_programming">Competitive Programming</string>
+    <string name="practice">Practice</string>
+    <string name="upload_query">Upload Query</string>
+    <string name="name">Name</string>
+    <string name="welcome_onboard">Welcome Onboard</string>
+</resources>
